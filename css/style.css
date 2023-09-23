@@ -1,0 +1,279 @@
+ 
+   @import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Fuggles&family=Gwendolyn:wght@700&family=Josefin+Sans:ital,wght@0,400;1,300;1,500&family=Playfair+Display:ital,wght@0,600;0,900;1,600&display=swap');
+
+ 
+ 
+ 
+ *,
+*::after ,
+*::before {
+    margin: 0; 
+    padding:0; 
+    box-sizing: border-box;
+}
+:root{
+    --Primaryfont: 'Croissant One', cursive;
+  --Secondfont: 'Fuggles', cursive;
+  --Thirdfont: 'Gwendolyn', cursive;--FFFFfont-family: 'Josefin Sans', sans-serif;
+  --fourthFont: 'Playfair Display', serif;  
+  --fontss:'Major Mono Display', monospace;
+  --bg-color:#ffbe76; 
+  --secondary: #7ed6df; 
+  --text:#f7f1e3;
+  } 
+  body{ 
+    width: 100%;
+    background-color:#eccc68;
+ } 
+ .wrapper{ 
+    width: 98%;
+    margin:0 auto; 
+    background-color: var(--secondary);  
+    border: 2px solid rgb(8, 10, 2); 
+    box-shadow: 2px 4px 3px 5px;
+
+ }  
+ header{
+    background-color: #130f40;
+  
+    width: 100%;
+ 
+ }
+ .header{
+    display: flex; 
+ 
+
+ } 
+ .header_element{
+    flex-basis: 50%;
+ }  
+.header_element h2{
+    font-family:var(--Primaryfont); 
+  
+    letter-spacing: 1px; 
+  
+background: linear-gradient(#2c2c54,#33d9b2,#706fd3,#9f1f88,#fed90f,#00a2ff,#09f1b8,#ff00d2,#fed90f,#00a2ff,#09f1b8);
+color: #124e97; 
+background-clip: text;
+-webkit-background-clip: text;
+color: transparent;
+
+}
+
+
+
+
+
+
+header p{
+    font-family: var(--fontss); 
+    letter-spacing: 10px;
+    font-weight: 800px; 
+   
+    background: linear-gradient(#0707e1,#0cefba,#5855ff,#f30ec9,#ffd900,#06a4ff,#09f1b8,#ff00d2,#fed90f,#1c8dce,#0ff0b8);
+
+background-clip: text;
+-webkit-background-clip: text;
+color: transparent;
+
+}
+
+
+
+
+
+
+.navber{
+    border-top: 1px solid #4f5252 ;  
+    background-color: #000000; 
+    border-bottom: 1px solid #4f456a; 
+    z-index: 2;
+}
+
+
+ .navber ul
+           {
+             
+              display: flex;
+              justify-content: end;
+      
+           } 
+           .navber ul li{ 
+              flex-basis: 8%;
+             border-right:1px solid #3c5472;
+             border-left: 1px solid #505093;
+             list-style: none;
+             text-align: center;
+          display: flex;
+       justify-content: center;
+       
+        
+          }   
+
+.navber li{
+    display: inline-block; 
+    position: relative; 
+
+}
+
+.navber ul ul{
+list-style-type: none;
+position: absolute; 
+left: -9999px; 
+top: 18px; 
+background-color: #542a2a;
+flex-direction: column; 
+border: 1px solid silver;
+width: 79px; 
+
+}
+
+
+.navber ul ul li{
+
+ border-top: 1px solid rgb(198, 178, 178);
+    display: block;
+    }
+    .navber ul ul li a{
+        text-decoration: none;
+    }
+    .navber ul ul :hover{
+        background-color: #fbfbfb; 
+
+    }
+
+
+          .navber ul li a{ 
+            text-decoration: none; 
+            text-align: center;
+          color:#f4fafb;
+         
+            font-family: georgia;
+         }     
+         
+         .navber ul  :hover{  
+           
+       background-color: #4f5d6b; 
+       color: #eccc68;  
+       
+    
+       }  
+
+       .navber ul li:hover ul{  
+        left: 0;
+    
+        
+     
+        }  
+ 
+
+
+
+
+
+
+       .section{
+        padding: 0; 
+        margin: 0; 
+        background-color: #cfb418; 
+        display: flex;
+        z-index: 1;
+     } 
+
+     .FirstImage{
+        background-color: #483624; 
+        padding-bottom: 0;
+     }
+
+.detail{
+  margin: 12px; 
+  padding: 12px; 
+
+}
+.detail h5{
+  color: #a33921; 
+  font-size: larger;
+  font-family: var(--Ffont-family);
+}
+.detail h4{
+font-family: var(--Ffont-family);
+padding-left: 30px;
+}
+.detail p{
+
+    font-family: var(--FFFFfont-family); 
+    font-weight: bold;
+    padding: 30px;
+} 
+
+
+  a{
+
+    font-family: var(--Primaryfont); 
+    font-weight: bold;
+text-decoration: none; 
+background-color: #000000; 
+color:#fff;  
+
+
+}  
+.detail a:hover{
+background-color: #483624; 
+color: #219fa3;
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+               
+       .footer{
+    
+        background-color: #000000; 
+        color: #f3c849; 
+        padding: 10px; 
+        border-top: 1px solid #7a8ba7 ;  
+        border-bottom: 1px solid #565c67;  
+        
+    } 
+    .fotter1{
+
+     display: flex; 
+     justify-content: right; 
+    
+    
+    }
+    .fotter1 a{
+     height: 20px;
+     width: 20px; 
+     background-color: rgb(43, 253, 1); 
+     border-radius: 50%; 
+     text-align: center; 
+   margin: 10px;
+     box-shadow: 0px 1px 1px 1px rgb(212, 180, 180); 
+     line-height: 25px;
+     
+     }
+   
+     .fotter1 a i {
+        transition: all 0.3s linear;
+    } 
+    a:hover i
+    {
+        transform: scale(1.4); 
+        color:black;
+    } 
+   
+   
+   
+
+
